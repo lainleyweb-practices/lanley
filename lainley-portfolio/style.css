@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(5, 7, 92, 0.993); */
+    background-color: #050563;
+    background-color: #020242;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    
+}
+.container{
+    width: 100%;
+    /* border-left: 1px solid white; */
+    /* height: 100vh; */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(7, 7, 87); */
+    padding: 20px;
+    /* width: 100%; */
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey; 
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+    /* border-right: 2px solid white; */
+    display: inline-block;
+
+    height: 100%;
+}
+.navbar ul li a{
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    /* border-right: 2px solid white; */
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: goldenrod;
+    font-weight: bold;
+}
+.navbar .logo{
+    font-size: 20px;
+}
+.navbar .logo h3:hover{
+    color: goldenrod;
+    cursor: pointer;
+ }
+.container .profile{
+    display: flex;
+    justify-content: space-around;
+    /* height: 300px; */
+    /* background-color: red; */
+ }
+ .container .profile .text{
+    position: relative;
+    top: 200px;
+    justify-content: center;
+ }
+ .text p{
+    font-size: 32px;
+    font-weight: 100;
+
+ }
+ .text h2{
+    font-size: 50px;
+    font-family: 'Noto Serif', serif;
+ }
+ /* Define colors for constants and operators */
+const {
+    color: blue;
+  }
+  
+  githublink {
+    color: green;
+  }
+  
+  .operator {
+    color: yellow;
+  }
+  
+  .protocol {
+    color: red;
+  }
+  
+  /* Apply colors to specific elements or classes in your HTML */
+  .blue-text {
+    color: blue;
+  }
+  
+  .green-text {
+    color: green;
+  }
+  
+  .yellow-text {
+    color: yellow;
+  }
+  
+  .red-text {
+    color: orange;
+  }
+  
+ .game {
+    position: relative;
+    top: 180px;
+    height: 500px;
+    width: 700px;
+    border: 1px solid grey;
+ }
+ .game .quiz-container {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    /* background-color: #fff; */
+    position: relative;
+    top: 40px;
+    left: 60px;
+    /* padding: 20px 150px; */
+    align-items: center;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+   
+  }
+
+  .choices {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  .choices label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+ footer{
+    display: flex;
+ }
+ footer ul{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid greye;
+    width: 100%;
+    padding: 5px 0;
+ }
+ 
